@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/backimg2_2"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/nameEditArea"
+        android:background="@drawable/radius"
+        android:fontFamily="@font/bmjua_ttf"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingStart="16dp"
+        android:hint="Name"/>
+
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/emailEditArea"
+        android:background="@drawable/radius"
+        android:fontFamily="@font/bmjua_ttf"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingStart="16dp"
+        android:hint="Email"
+        />
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/passEditArea"
+        android:background="@drawable/radius"
+        android:fontFamily="@font/bmjua_ttf"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:paddingStart="16dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signUpBtn"
+        android:fontFamily="@font/bmjua_ttf"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/radius2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sign Up"
+        android:layout_marginRight="135dp"
+        android:layout_marginLeft="135dp"/>
+
+</LinearLayout>

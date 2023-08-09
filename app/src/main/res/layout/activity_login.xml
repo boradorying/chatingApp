@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/backimg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_margin="50dp"
+        android:src="@drawable/removeimg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <EditText
+        android:textColor="@color/white"
+        android:id="@+id/emailEditArea"
+        android:background="@drawable/radius"
+        android:fontFamily="@font/bmjua_ttf"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingStart="16dp"
+        android:hint="Email"
+        />
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/passEditArea"
+        android:background="@drawable/radius"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:paddingStart="16dp"
+        android:inputType="textPassword"
+        android:layout_height="50dp"
+        android:hint="password"
+        />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:fontFamily="@font/bmjua_ttf"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/radius2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:layout_marginRight="135dp"
+        android:layout_marginLeft="135dp"/>
+    <Button
+        android:id="@+id/signupBtn"
+        android:fontFamily="@font/bmjua_ttf"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/radius2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sign Up"
+        android:layout_marginRight="135dp"
+        android:layout_marginLeft="135dp"/>
+
+</LinearLayout>
