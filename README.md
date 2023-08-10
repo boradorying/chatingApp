@@ -46,5 +46,5 @@ ChattyConnect는 사용자들이 간단하게 회원 가입하고 로그인하�
 
 - **Firebase Authentication**: 회원가입 및 로그인 구현을 위해 사용
 - **Firebase Realtime Database**: 채팅 데이터 저장 및 불러오기에 활용
-- **Android Kotlin**: 안드로이드 앱을 개발하기 위한 주요 프로그래밍 언어로 사용되었습니다.
-- **RecyclerView**: 채팅 목록 화면과 개인 채팅 창에서 아이템들을 효율적으로 표시하기 위해 사용되었습니다.
+- **Android Kotlin**: 안드로이드 앱을 개발하기 위한 주요 프로그래밍 언어로 사ㅇ용
+- **RecyclerView**: 채팅 목록 화면과 개인 채팅 창에서 아이템들을 효율적으로 표시하기 위해 사용
